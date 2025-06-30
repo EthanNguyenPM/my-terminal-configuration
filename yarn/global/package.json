@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@adonisjs/cli": "^4.0.13",
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "create-electron-app": "^6.3.0",
+    "create-next-app": "^13.2.4",
+    "create-vite": "^5.5.2",
+    "live-server": "git+https://github.com/tapio/live-server.git#ad22544",
+    "neovim": "^5.2.1",
+    "nosync-icloud": "^1.2.5",
+    "pm2": "^5.2.0"
+  }
+}

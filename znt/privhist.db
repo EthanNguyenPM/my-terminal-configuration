@@ -1,0 +1,7 @@
+source ~/.zshrc
+clear
+source ~/.zshrc
+echo "source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+zshreload
