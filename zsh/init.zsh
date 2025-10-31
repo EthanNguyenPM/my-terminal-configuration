@@ -1,5 +1,5 @@
 . ~/.config/zsh/base.zsh
-. ~/.config/zsh/config.zsh
+. ~/.config/zsh/config/init.zsh
 . ~/.config/zsh/plugins/init.zsh 
 
 #
@@ -17,5 +17,10 @@
 #
 # Starship
 #
+#
+if [[ "${widgets[zle-keymap-select]#user:}" == "starship_zle-keymap-select" || \
+      "${widgets[zle-keymap-select]#user:}" == "starship_zle-keymap-select-wrapped" ]]; then
+    zle -N zle-keymap-select "";
+fi
 
 eval "$(starship init zsh)"

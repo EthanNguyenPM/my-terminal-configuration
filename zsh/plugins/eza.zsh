@@ -6,7 +6,7 @@ zstyle ':omz:plugins:eza' 'show-group' no
 zstyle ':omz:plugins:eza' 'size-prefix' si
 zstyle ':omz:plugins:eza' 'hyperlink' yes
 
-alias ls='eza --icons --group-directories-first $eza_params'
+alias ls='eza -l --group-directories-first --icons $eza_params'
 alias l='eza --git-ignore --group-directories-first $eza_params'
 alias ll='eza --all --header --long --group-directories-first $eza_params'
 alias llm='eza --all --header --long --sort=modified --group-directories-first $eza_params'

@@ -80,12 +80,13 @@ alias vi="nvim"
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias zshreload="source ~/.zshrc"
+alias obsidianpath="cd /Users/tannguyenthanh/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/My-obsidian"
 
 # Homebrew
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 # Groq ai
-export GROQ_API_KEY="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"
+export GROQ_API_KEY="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"
 export ETHAN_NGUYEN="hihi, i'm tan"
 
 # Java
@@ -97,3 +98,5 @@ export PATH="/Users/tannguyenthanh/.yarn/bin:$PATH"
 # pyenv
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+
+export EDITOR=nvim

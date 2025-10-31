@@ -20,11 +20,11 @@
 
 source ~/.config/zsh/plugins/fzf.zsh
 source ~/.config/zsh/plugins/thefuck.zsh
-source ~/.config/zsh/plugins/eza.zsh
 source ~/.config/zsh/plugins/zsh-autosuggestions.zsh
 source ~/.config/zsh/plugins/zsh-syntax-highlighting.zsh
-source ~/.config/zsh/plugins/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
+# source ~/.config/zsh/plugins/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
 source ~/.config/zsh/plugins/nvm.zsh
 source ~/.config/zsh/plugins/groq_ai_zsh_suggestions/groq_ai_zsh_suggestions.plugin.zsh
 source ~/.config/zsh/plugins/vi-mode.zsh
 source ~/.config/zsh/plugins/command-not-found.zsh
+source ~/.config/zsh/plugins/eza.zsh
